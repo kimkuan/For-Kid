@@ -25,7 +25,7 @@ import com.ssafy.happyhouse.model.Result;
 @Component
 public class MapRestApi {
 
-	private static String apiKey = "c36fb2a41fa83ccb470c05c86071c74b";
+	private static String apiKey = "";
 	private static final String API_SERVER_HOST = "https://dapi.kakao.com";
 	private static final String SEARCH_PLACE_KEYWORD_PATH = "/v2/local/search/keyword.json";
 	private static final String SEARCH_REGION_CODE_PATH = "/v2/local/geo/coord2regioncode.json";
