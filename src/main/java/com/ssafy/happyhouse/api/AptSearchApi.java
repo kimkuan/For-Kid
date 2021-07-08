@@ -10,8 +10,8 @@ import java.io.BufferedReader;
 @Component
 public class AptSearchApi {
 
-	private String encServiceKey = "kuaL7s4pgpwjxLuP6Ew3VXEggsXp7dDOMdImvRoxhB5wrUib7vLxICAf8MDRJ%2FjuJ34LUgiUE5VulhmHOjUkuw%3D%3D";
-	private String decServiceKey = "kuaL7s4pgpwjxLuP6Ew3VXEggsXp7dDOMdImvRoxhB5wrUib7vLxICAf8MDRJ/juJ34LUgiUE5VulhmHOjUkuw==";
+	private String encServiceKey = "";
+	private String decServiceKey = "";
 
 	public AptSearchApi() throws Exception {
 		//StringBuilder urlBuilder = new StringBuilder("http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade"); /*아파트 매매 URL*/
